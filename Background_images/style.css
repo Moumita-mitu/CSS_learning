@@ -1,0 +1,11 @@
+body{
+    background-image: url(bridge_small.png);
+    /* if i use small version of my bg-img,it will repeat-->bg repeat property */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* centered horizontally */
+    background-attachment: fixed;
+    /* sets the bg-img-scrolls with the rest of the page  */
+    /* now,the img is in the middle of my viewport */
+    background-size: cover;
+}

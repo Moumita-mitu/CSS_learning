@@ -1,0 +1,23 @@
+#box1{
+    width:200px;
+    height: 200px;
+    background-color: hsl(197, 100%, 63%);
+        
+    /* position: sticky;-->we reserve some space for the original statement here */
+    position: fixed;
+    /* right: 0px; */
+    /* bottom: 0px; */
+    top: 100px;
+    left:100px;
+}
+#box2{
+    width:100px;
+    height: 100px;
+    background-color:hsl(150, 100%, 50%);
+    position: absolute;
+        
+    /* position: static;-->set a default pos  */
+    top: 50px;
+    left:50px;
+
+}

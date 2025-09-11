@@ -1,0 +1,9 @@
+li:hover{
+    background-color: hsl(60, 100%, 72%);
+}
+li:not(:hover){
+    background-color: hsl(0, 0%, 77%);
+}
+li:nth-child(even/*3n+1*/){
+    background-color: rgb(255, 115, 0);
+}

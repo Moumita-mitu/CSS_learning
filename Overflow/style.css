@@ -1,0 +1,13 @@
+div{
+    border: 2px solid;
+    height: 75px;
+    /* lorem ipsum is overflowing outside the div box */
+    overflow: auto;
+
+    /* overflow-clip-margin: 13px;fixing how much we can see outside the margin */
+    /* overflow: visible;overflow outside the box is visible */
+    /* overflow: hidden;overflow outside th box are hidden but can be copied */
+    
+    /* overflow: scroll;horizontal and vertical scrollbar */
+    /* overflow: auto;only vertical scroll bar */
+}

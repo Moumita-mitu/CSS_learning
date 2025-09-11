@@ -1,0 +1,15 @@
+body{
+    border: 3px solid;
+    display: flow-root;
+    /* to prevent oveflowing-outside the box */
+}
+#img1{
+    float: left;
+    margin-right: 10px;
+
+}
+#img2{
+    float: right;
+    margin-left: 10px;
+    
+}

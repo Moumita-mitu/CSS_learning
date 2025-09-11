@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-color: black;
+}
+
+.box{
+    border: 2px solid;
+    height: auto;
+    /* width: auto; */
+    width: 50%;
+    padding: 25px;
+    background-color: hsl(0, 100%, 75%);
+    /* width: 100px; */
+
+    /* height: 100px; might go wrong*/
+    /* float: left; -float doesnt work here*/
+    
+
+
+    /* box-sizing: border-box; */
+   /* disregards any border or padding  */
+
+    text-align: center;
+    max-width:25% ;
+    min-width: 75%;
+
+}
+
+
+
+
+

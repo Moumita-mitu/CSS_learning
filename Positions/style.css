@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+#box1{
+    /* border: 2px solid; */
+    height: 200px;
+    
+    width: 200px;
+    /* padding: 25px; */
+    background-color: hsl(187, 100%, 63%);
+    position: relative;
+    /* relative-where it normally is ,so that we can move it top,bottom,left,right */
+    /* fixed-positions relative to the viewport or browser*/
+    /* absolute-...................nearest ancestor  */
+    /* sticky-position based on scroll position:  */
+    /* static-default position for an element      */
+    
+    
+    
+    
+    
+    top: 100px;
+    left: 100px;
+    /* top: -100px; */
+    /* left: -100px; */
+
+
+
+}
+
+
+
+
+

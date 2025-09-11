@@ -1,0 +1,19 @@
+#container{
+    border:2px solid ;
+}
+#container p{
+    /* select all  descxendant*/
+    background-color: hsl(60, 100%, 72%);
+}
+#container > p{
+    /* select child */
+    background-color: hsl(27, 100%, 72%);
+}
+#container ~ p{
+    /* select gen */
+    background-color: hsl(14, 100%, 72%);
+}
+#container + p{
+    /* select adj */
+    background-color: hsl(147, 100%, 72%);
+}

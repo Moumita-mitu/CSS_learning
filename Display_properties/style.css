@@ -1,0 +1,22 @@
+ div{
+    /*block level element already */
+    background-color: hsl(0, 100%, 75%);
+    width: 100px;
+    height: 100px;
+    display:block;
+    /* display: inline; */
+    /* display: inline-block; */
+    /* display:none; */
+}
+span{
+    background-color: hsl(202, 100%, 75%);
+    width: 100px;
+    height: 100px;
+    /* display: inline; */
+    /* display: inline-block; */
+    display: none;
+    display: block;
+    /* showing like a block,though span is an inline element */
+
+
+}

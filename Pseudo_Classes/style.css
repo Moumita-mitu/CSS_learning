@@ -1,0 +1,12 @@
+a:link{
+    color: hsl(195, 100%, 74%);
+}
+a:hover{
+    color: hsl(195, 100%, 86%);
+}
+a:active{
+    color: hsl(244, 100%, 58%);
+}
+a:visited{
+    color: hsl(0, 0%, 77%);
+}
