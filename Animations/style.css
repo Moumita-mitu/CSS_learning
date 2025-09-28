@@ -1,3 +1,6 @@
+ body{
+    /* background-color: hsl(0, 0%, 12%); */
+ }
  #box{
     /*block level element already */
     background-color: hsl(0, 100%, 75%);
@@ -5,9 +8,23 @@
     height: 250px;
     font-size: 13 em;
     text-align: center;
-    animation-name: slideLeft;
-    animation-duration: 2s;
-
+    /* animation-name:colorChange; */
+    /* animation-duration: 9s; */
+    
+    animation-iteration-count:infinite;
+    animation-direction:normal;
+    animation-play-state:paused;
+    animation-timing-function:ease-in-out;
+    /* opacity:0; */
+}
+#box:hover{
+    animation-name:colorChange;
+    animation-duration: 9s;
+}
+#box:active{
+     
+    animation-name:rotate;
+    animation-duration: 9s;
 }
 
 @keyframes slideLeft{
@@ -28,8 +45,11 @@
 @keyframes grow{
     50%{transform: scale(2,2);}
 }
+@keyframes shrink{
+    50%{transform: scale(2,2);}
+} 
 @keyframes fade{
-    100%{opacity:0}
+    100%{opacity:1}
 }
 @keyframes colorChange{
     0%{background-color: red;}
@@ -38,4 +58,7 @@
     60%{background-color: rgb(40, 224, 15);}
     80%{background-color: green;}
     100%{background-color: violet;}
+}
+@keyframes glow{
+    50%{box-shadow:0px 0px 50px hsl(60, 100%, 60%);}
 }
